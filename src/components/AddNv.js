@@ -10,7 +10,7 @@ function AddNv(props) {
         let id = e.target.id;
         let value = e.target.value;
 
-        if (e.target.type == "checkbox")
+        if (e.target.type === "checkbox")
             value = e.target.checked;
 
         setInput({ ...input, [id]: value });

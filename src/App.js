@@ -17,6 +17,7 @@ function App() {
           <Route path="/home" Component={HomePage}></Route>
           <Route path='/form' Component={AddNv}></Route>
           <Route path='/form/:id' Component={AddNv}></Route>
+          <Route path="/" Component={HomePage}></Route>
         </Routes>        
       </div>
     </div>
